@@ -1,0 +1,218 @@
+*{
+    font-family: 'Spartan', sans-serif;
+}
+
+h1{
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    color: hsl(300, 43%, 22%);
+}
+
+h2{
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(303, 10%, 53%);
+}
+
+p{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
+}
+
+.card{
+    height: 645px;
+    width: 1135px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.text{
+    width: 49%;
+    height: 50%;
+    margin-left: 10px;
+}
+
+.review{
+    display: flex;
+    width: 49%;
+    height: 50%;
+}
+
+.review_container{
+    display: flex;
+    height: auto;
+    width: 545px;
+    flex-direction: column;
+    margin: auto;
+}
+
+.star{
+    width: 17px;
+    height: 16px;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.star-left{
+    margin-left: 30px;
+}
+
+.review_element{
+    display:flex;
+    height: auto;
+    width: 440px;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 10px ;
+    border-radius: 10px;
+}
+
+#e1{
+    align-self: flex-start;
+}
+
+#e2{
+    align-self: center;
+}
+
+#e3{
+    align-self: flex-end;
+}
+
+
+.opinion{
+    height: 50%;
+    width: 100%;
+}
+
+.opinion-container{
+    display: flex;
+    height: 265px;
+    width: auto;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.opinion-container-card{
+    width:350px;
+    height: 240px;
+    border-radius: 10px;
+    background-color: hsl(300, 43%, 22%);
+}
+
+#c1{
+   align-self: flex-start;
+}
+
+#c2{
+    align-self: center;
+}
+
+#c3{
+    align-self: flex-end;
+}
+
+.profile{
+    display: flex;
+    flex: row;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 40px;
+    
+}
+
+.profile-name{
+    margin-left: 15px;
+    align-self: center;
+}
+
+img{
+    border-radius: 100%;
+    width: 42px;
+    height: auto;
+}
+
+h5{
+    color: white;
+    margin-top: 27px;
+}
+
+span{
+    color:hsl(333, 80%, 67%);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.profile-text{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.h5-light{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+@media (max-width: 1135px) {
+    .card{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;       
+    }
+
+    .review{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .review_element{
+        width: 375px;
+        height: auto;
+        
+    }
+
+    .text{
+        width: auto;
+        height: auto;
+    }
+
+    h1, h2{
+        text-align: center;
+    }
+
+
+    .opinion-container{
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    #e1, #e2, #e3{
+        align-self: flex-start;
+    }
+
+    .review_container{
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
+
+    }
+
+    
+
+}
